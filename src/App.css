@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+h1{
+  color:whitesmoke;
+  font-size: 28px;
+  padding-bottom: 5%;
+  
+}
+h2{
+  color:whitesmoke;
+  font-size: 18px;
+  padding-top: auto;
+  
+}
+
+p{
+  margin-top: 12%;
+  padding-bottom: 20px;
+  font-size: 10px;
+  
+}
+body{
+  font-family: "Raleway",sans-serif;
+  background-image: url('./stars.jpg');
+  background-size: cover;
+  display: flex;
+  padding-left: 50%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+}
+
+.cover{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  height: 80vh;
+  width: 30vw;
+  background: rgb(225, 225,225, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.377);
+  backdrop-filter: blur(8.5px);
+  border-radius: 2rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  
+}
+
+
+
+.inputcontainers{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+
+
+}
+.inputcontainers input{
+  width: 99%;
+  height: 15%;
+  margin: 0.9rem auto;
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 1.12rem;
+  font-family: "Raleway,sans-serif";
+  backdrop-filter: blur(8.5px);
+  border-radius: 2rem;
+  background: rgb(225, 225,225, 0.6);
+
+}
+
+.login-btn{
+  display:block;
+  margin: -0.5rem 4rem 2rem;
+  width: 40%;
+  padding: 0.2rem;
+  border-radius:25px;
+  outline: 0;
+  font-family: "Raleway",sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(146, 141, 141, 0.323);
+  border: none;
+  outline: none;
+  backdrop-filter: blur(1.5px);
+  border-radius: 2rem;
+  
+  text-align: center;
+  outline: none;
+  border-radius: 45px;
+  cursor: pointer;
+  font-weight:300;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+
+
+
+ 
+
+}
+
+.link-button
+{
+  color:rgb(225, 225, 225);
+  background-color:rgb(225, 225, 225, 0.15);
+  border:none;
+  background: none;
+  border-radius: 15px;
+  font-size: 1rem;  
+}
+
+.login-btn:hover{
+  border:2px solid;
+  background-color:rgb(225, 225,225,0.15 );
+}
+
+.link-contianer{
+  border: 2px ;
+  justify-content: center;
+  text-transform:capitalize;
+
+}
+
+.small{
+  color: rgb(218, 218,218);
+  text-align: center;
+  font-size: 0.85rem;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-bottom: 5rem;
+  cursor: pointer;
+  
+}
+
+
+.icons{
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  background-color: rgb(225, 225,225, 0.15);
+  align-items: center;
+  cursor: pointer;
+  border-radius: 45px;
+ 
+  
+}
+.icons:hover{
+  color:black;
+}
+
+
+.other-Login{
+  display: flex;
+  gap: 22px;
+  color: white;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width:670px)
+{
+  .inputcontainers input{
+    width: 100%;
+  }
+
+  .login-btn{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width:320px)
+{
+  .inputcontainers input{
+    width: 3rem;
+  }
+
+  .login-btn{
+    width: 3rem;
+  }
+}
+
+@media only screen and (max-width:150px)
+{
+  .inputcontainers input{
+    width: 2rem;
+  }
+
+  .login-btn{
+    width:2rem ;
+  }
+}
+
+@media only screen and (max-width:20px)
+{
+  .inputcontainers input{
+    width: 1rem;
+  }
+
+  .login-btn{
+    width:1rem;
+  }
+}
+
+
+
+@media(max-width:768px){
+  
+  h1{
+      font-size: 1.5rem;
+  
+}
+.inputcontainers input{
+  width: 100%;
+  font-size:1.28rem;
+}
+.cover,body{
+  width: 100%;
+  padding-left: 20%;
+  padding: 11px 4%;
+}
+
+
+.small{
+  font-size:xx-small;
+
+}
+.Text{
+  font-size:xx-small;
+
+}
+
+.login-btn{
+  width: 30%;
+}
+}
+
+
+@media(max-width:364px){
+
+  h1{
+    font-size: 0.7rem;
+
+}
+  .inputcontainers input{
+  width: 100%;
+  font-size:1.12rem;
+
+}
+.cover,body{
+  width: 100%;
+  padding-left: 20%;
+  padding: 11px 4%;
+}
+
+.login-btn{
+ 
+  width: 3rem;
+}
+.small{
+  font-size:xx-small;
+
+}
+.Text{
+  font-size:xx-small;
+
+}
+
+
+  
+}
+
